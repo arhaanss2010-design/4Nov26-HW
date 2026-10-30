@@ -4,13 +4,13 @@ using System.ComponentModel.Design;
 namespace ScrabbleProblem
 
 {
-    class Null
+    class Null//Scrabble Problem
     {
         static int Points(string word)
         {
             int start = 0;
             {
-                for (int index = 0; index < word.Length; index++)
+                for (int index = 0; index < word.Length; index++)//Checking each letter in each index and adding point values
                     if (word[index] == 'a' || word[index] == 'e' || word[index] == 'i' || word[index] == 'o' || word[index] == 'u' || word[index] == 'n'  ||word[index] == 'r' || word[index] == 't' || word[index] == 'l' || word[index] == 's' )
                     {
                         start = start + 1;
